@@ -1,0 +1,633 @@
+html{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;    
+}
+
+body {
+    min-height: 100vh;
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(65,105,225);
+    background-position: center; 
+  }
+  
+.header{
+    position: fixed;
+    width: 100%; 
+  }
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+.button-login{
+    position: relative;
+    width: 50rem;
+    background-color: rgba(0, 0, 0,0.5);
+        color: whitesmoke;
+    border: 2px solid white;
+    margin: 20px;
+    font-size: 20px;
+    font-family: cursive;
+    cursor: pointer;
+    height: 50px;
+    width: 130px;
+    transition-duration: 0.15s;
+    border-radius: 3px; 
+  }
+
+.button-login:hover{
+   background-color: whitesmoke;
+    color: black;
+    transition-duration: 0.18s; 
+}
+
+.giga-container-achats{ 
+    background-image: url("https://zupimages.net/up/22/27/vvn7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 100vh;
+}
+
+.container-achats{
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-first{
+    padding-left: 5rem;
+    color:white
+}
+
+.img-logo{
+    width: 225px;
+}
+
+.title-h1{
+    font-size: 35px;
+    font-family: cursive;
+}
+
+.title-h2{
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.offres{
+    padding-left: 5rem;
+    display: inline-flex;   
+}
+
+.offre-1{
+    margin-right: 2rem
+}
+
+.title1-h3{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 0;  
+}
+
+.i-first{
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 12px
+}
+
+.description-prix1{
+    color: whitesmoke;
+    margin: 10px 0px 8px;
+    font-family: monospace;   
+}
+
+.first-tarif{
+    height: 90px;
+    width: 300px;
+    border-radius: 7px;
+    background-color: rgb(0,54,229);
+    color: white;
+    font-size: 25px;
+    font-family: monospace;
+    cursor: pointer;
+    border: none;
+    transition-duration: 0.2s;
+}
+
+.first-tarif:hover{
+  transform: scale(0.95);
+    transition-duration: 0.2s;
+}
+
+.div-first-p{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-p{
+    color: whitesmoke;
+    font-family: monospace;
+    padding: 0rem 5rem;  
+}
+
+.offre-2{
+   margin-left: 2rem; 
+}
+
+.title2-h3{
+   color: white;
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+.i-second{
+    color: whitesmoke;
+    font-size: 12px;
+    font-family: monospace
+}
+
+.description-prix2{
+    color: whitesmoke;
+    margin: 10px 0px 8px;
+    font-family: monospace;
+}
+
+.second-tarif{
+   height: 90px;
+    width: 300px;
+    border-radius: 7px;
+    background-color: rgb(0,54,229);
+    color: white;
+    font-size: 25px;
+    font-family: monospace; 
+    cursor: pointer;
+    border: none;
+    transition-duration: 0.2s;
+}
+
+.second-tarif:hover{
+  transform: scale(0.95);
+    transition-duration: 0.2s;
+}
+
+.second-p{
+   color: whitesmoke;
+    font-family: monospace; 
+}
+
+
+.icone-bas-img{
+    height: auto;
+    width: 75px;
+}
+
+.container-images-texts{
+    
+    display:flex;
+    flex-direction: column;
+    padding: 15rem 20rem;
+    background: linear-gradient(180deg, rgb(0,0,0) 10%,rgb(65,105,225) );
+    color: white;
+}
+
+.first-image-text{
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.first-image{
+    width: 50%;
+    min-width: 30vw;
+    margin-right: 10px;
+}
+
+.premier-texte{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%; 
+}
+
+
+.first-title{
+    font-family: cursive;
+    font-size: 26px
+}
+
+.first-text{
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 10px
+}
+
+.second-image-text{
+    display: flex;
+    align-items: center;
+    width: 100% 
+}
+
+.second-image{
+    max-width: 50%;
+    height: 100%;
+    
+}
+
+.deuxieme-texte{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;  
+}
+
+.second-title{
+    display: flex;
+    flex-direction: column;
+    font-family: cursive;
+    font-size: 26px
+}
+
+.second-text{
+    font-family: monospace;
+    font-size: 20px;
+    margin-right: 15px     
+}
+
+
+.grides-texts{
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.fist-texts-before-first-grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 10rem;
+    padding-bottom: 2rem
+}
+
+.first-h2-for-grid1{
+    font-family: cursive;
+    font-size: 35px;
+    text-align: center;
+}
+
+.first-p-for-grid1{
+   font-family: monospace;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+
+.first-grid{
+    display: flex;
+    flex-flow:row wrap;
+  justify-content:center; 
+}
+
+
+.btn-inscription{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 10rem;  
+}
+
+.inscription{
+    padding: 22px 30px;
+    color: white;
+    background-color: orangered;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: monospace;
+    transition-duration: 0.2s;
+}
+
+.inscription:hover{
+    background-color: white;
+    color: orangered;
+    transition-duration: 0.2s;
+}
+
+.imgs{
+    height:100%;
+  width:calc(100% / 3.1);
+  object-fit:cover;
+    margin: 3px;
+    border-radius: 10px 
+}
+
+
+.second-h2-for-grid2{
+    font-size: 35px;
+    font-family: cursive;
+    color: white;
+    text-align: center;
+}
+
+.second-p-for-grid2{
+    font-family: monospace;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+
+.second-grid{
+    display: flex;
+    flex-flow:row wrap;
+  justify-content:center;
+}
+
+
+.last-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.last-section a{
+    color: white;
+    font-size: 18px;
+    font-family: monospace
+}
+
+.last-section h2{
+    font-family: cursive;
+    font-size: 26px;
+    color: white;
+    padding-bottom: 1.5rem
+}
+
+.last-section h3{
+    color: ghostwhite;
+    font-size: 20px
+}
+
+.icones-elements-text{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.icones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 30px;   
+}
+
+.icones a i{
+    font-size: 55px;
+    margin: 10px;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 10rem;
+    padding-bottom: 1rem;
+}
+
+footer img{
+    height: 55px;
+    margin-bottom: 10px
+}
+
+footer a{
+    color: darkgray;
+    margin: 5px 20px;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    font-size:14px;
+    font-family: monospace;   
+}
+
+.footer-a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+footer a:hover{
+    text-decoration: underline solid 1px;
+    transition-duration: 0.1s;
+    color: aliceblue;
+    
+}
+
+   
+
+@media only screen and (max-width: 1454px ){
+        
+
+.container-images-texts{
+  padding: 70rem 2rem 5rem 2rem;
+    margin: 0;
+}
+
+.first-image-text{
+    display:flex;
+    flex-direction: column-reverse;
+}
+
+.premier-texte{
+    width: 50%
+}
+
+
+.first-title{
+   font-size: 20px
+}
+
+.first-text{
+   font-size: 15px
+}
+
+.second-image-text{
+    display: flex;
+    flex-direction: column
+}
+
+
+.deuxieme-texte{
+width: 50%  
+}
+
+.second-title{
+  font-size: 20px  
+}
+
+.second-text{
+   font-size: 15px
+}
+
+ /*@media only screen and (min-width:770px) and (max-width: 1455px){
+        .container-images-texts{
+  padding: 0;
+    margin: 0;
+}
+    }  */
+
+@media only screen and (max-width: 895px){
+    
+    
+  .button-login{
+    font-size: 15px;
+      width: 120px;
+      height: 40px;    
+  } 
+
+.giga-container-achats{
+    height: 30vh;
+    background-image: url("https://zupimages.net/up/22/27/vvn7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;  
+}
+
+.container-achats{
+  padding-top: 30vh;
+}
+.text-first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0
+}
+
+    .title-h1{
+       font-size: 2.2rem 
+    }
+    
+    .title-h2{
+        font-size: 1.7rem
+    }
+
+
+.offres{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.offre-1{
+    margin: 0
+}
+
+
+
+.offre-2{
+   margin: 0
+}
+
+
+.grides-texts{  
+    padding: 0
+}
+
+
+.first-h2-for-grid1{
+    font-size: 26px
+}
+
+.first-p-for-grid1{
+    font-size: 15px
+}
+
+.first-grid{
+padding: 1rem;
+}
+    
+
+.imgs{
+    width:calc(100% / 2.2); 
+}
+
+
+.second-h2-for-grid2{
+    font-size: 26px
+}
+
+.second-p-for-grid2{
+    font-size: 15px
+}
+
+.second-grid{
+    padding: 1rem
+}
+
+
+.last-section{
+    padding-top: 40rem;
+}
+
+
+    .icones{
+  margin: 10px;  
+  width:calc(100% / 2.2);  
+}
+    
+    @media only screen and (max-width: 650px){
+        
+        
+.last-section{
+    padding-top: 0
+}
+
+.last-section a{
+    font-size: 15px;
+} 
+
+.last-section h2{
+    font-size: 21px;
+    padding-bottom: 1.2rem
+}
+
+.last-section h3{
+    font-size: 15px
+}
+
+.icones-elements-text{ 
+    flex-wrap: wrap; 
+}
+
+.icones{
+    margin: 10px 0px;
+}
+
+.icones a i{
+    font-size: 35px;
+    margin: 13px;
+  }
+    }
+    
+   
+    
+    @media only screen and (max-width: 450px){
+        
+        .container-achats{
+  padding-top: 39vh;
+} 
+    } 
+    
+
+    
+    
+    
+
